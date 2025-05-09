@@ -1,0 +1,98 @@
+PRODUCT REQUIREMENTS DOCUMENT (PRD)
+Bias Buster: HR Interview Simulator
+Overview
+The purpose of this project is to create an immersive, educational HR interview simulation game called Bias Buster. The game will help users understand how unconscious bias can affect hiring decisions by simulating the recruitment of candidates for a fictional company. The player acts as the HR manager and must select candidates over a series of rounds. Each round presents 3 randomly generated candidate profiles, and the player must interactively explore each before making a hiring decision. The game lasts for 5 rounds, allowing the player to build a small team. At the end of the game, they receive interactive feedback on their hiring patterns and the resulting impact on team diversity and performance. The simulation emphasizes reflection, learning, and awareness-building around fair and inclusive recruitment practices, with branching outcomes, gamified progress, and dynamic content that varies each session for replayability.
+Objectives and Goals
+Educate users on the impact of unconscious bias in hiring.
+Provide a fully interactive and engaging simulation.
+Offer measurable outcomes through real-time diversity and performance feedback.
+Encourage reflection, behavioral insight, and growth.
+Run entirely on Replit with minimal setup, using HTML/CSS/JavaScript (or Python + media-based UI).
+Target Audience
+HR professionals
+Recruiters
+Functional Requirements
+Simulation Flow Upgrade
+Each round includes:
+Resume review with clickable tabs (Education, Experience, Skills, References)
+Hover-reveal "gold star" or "red flag" icons based on resume cues
+Short interview media (text/audio/video)
+One follow-up question option per candidate with prebuilt answer choices
+Behavioral variation (tone, emotion, body language) if media is used
+Real-time reflection prompt (e.g., multiple choice + optional textbox):
+“What influenced your decision most?” (Name, school, tone, etc.)
+Candidate Generation
+Randomized candidates with:
+Name
+Gender identity
+Age group
+Years of experience
+Education background
+Soft skill phrase (e.g., "Excels in emotional intelligence during conflict")
+Interview quote (diverse, bias-aware, context-rich)
+System Feedback
+Post-hire:
+Reflection capture form (optional journaling)
+After 3 rounds:
+Interactive Dashboard with:
+Top 3 unconscious influences (clickable icons with examples)
+Overlooked strengths vs. selected attributes
+Consistency heatmap (visual streaks or clusters)
+“What If Simulator”: Replay one decision and compare alternate outcomes
+Final round:
+Summary cards with:
+Team stats (gender/age/education diversity)
+Bias Score (pattern detection with explanation popups)
+Performance Predictor Graph (compare your team to ideal data-driven hires)
+“Why It Matters” insight bubbles (e.g., overreliance on one trait)
+Rewind & Rethink button (1 decision per 3 rounds)
+Realistic Behavioral Triggers
+Triggered dialogue moments: ethical dilemma, vague answer, overconfidence, etc.
+Urgency Mode randomly introduced to simulate high-pressure decision-making
+Optional peer scoring overlay post-game to compare anonymized results
+Learning Boosters
+Flashcard Pop-ups: Quick facts (e.g., “Name bias affects 1 in 4 hiring decisions.”)
+Micro-Intervention Tips: Tailored suggestions based on your hiring behavior
+Gamification Layer:
+Levels: Novice Recruiter → Bias Buster → Inclusion Architect
+Badges for Fairness, Growth, Insight, and Correction
+Streaks like: “3 unbiased hires in a row!” or “First time rethinking a choice”
+Non-Functional Requirements
+Fast-loading and browser-based (HTML/JS ideal)
+No login required (guest access with session memory)
+Mobile-friendly UI
+Smooth interaction, simple onboarding, and readable visuals
+User Stories
+US-001: As a player, I want to explore candidate details through tabs and cues.
+US-002: As a player, I want to ask follow-up questions to deepen candidate evaluation.
+US-003: As a player, I want timely reflections and nudges to learn in-the-moment.
+US-004: As a player, I want feedback that shows my blind spots clearly.
+US-005: As a player, I want to earn rewards for thoughtful and fair hiring.
+US-006: As a player, I want to optionally see how my choices compare with peers.
+Acceptance Criteria
+Profiles display in interactive, expandable cards
+Red flags/gold stars trigger tooltips when hovered
+Reflection prompts appear immediately after decision
+Dashboards appear with interactive graphs and outcome simulators
+Gamification and badge system functional and visible
+All educational interventions appear at logical intervals
+Assumptions and Constraints
+Simulation assumes English-language input/output
+Only one decision allowed per round unless using "Rethink" token
+Peer comparison is anonymized and opt-in
+Candidate pool is limited per game session, regenerated each replay
+Out of Scope
+Multi-user collaboration or real-time interviewing
+Voice synthesis, video production from scratch
+External API integrations (e.g., real resume databases)
+User Interface Plan
+Landing Screen: Start Game, Instructions, and Info button
+Candidate Review: Three interactive cards per round with tabs and hover zones
+Decision Screen: Select candidate, see red/gold highlights, ask follow-up
+Reflection Screen: “Why did you choose this person?” prompt + feedback
+Midpoint Dashboard: Graphs, consistency meter, "What If" simulator
+Final Review Screen: Team breakdown, bias score, performance predictor, badge earned
+Flashcards/Badges: Pop-ups or sidebar reveal after major actions
+User Story Section
+See User Stories above.
+This PRD is now optimized for interactive simulation design and can be built in Replit using HTML/JS or a multimedia-enabled Python framework. Ask ChatGPT to start building by focusing on candidate generation and interactive resume review first.

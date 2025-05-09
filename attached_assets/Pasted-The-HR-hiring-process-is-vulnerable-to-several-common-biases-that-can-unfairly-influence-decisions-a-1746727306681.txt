@@ -1,0 +1,34 @@
+The HR hiring process is vulnerable to several common biases that can unfairly influence decisions and reduce workplace diversity. Here are the top biases found in hiring:
+
+- Affinity (Similarity) Bias: Favoring candidates who share similar backgrounds, interests, or experiences as the interviewer or hiring manager[5][6][7].
+- Confirmation Bias: Seeking out or interpreting information that confirms pre-existing beliefs about a candidate, while ignoring contradictory evidence[6][7].
+- Halo Effect: Allowing one positive trait or impression (such as a prestigious school or confident demeanor) to overshadow other, possibly less favorable, aspects of a candidate[4][6][7].
+- Horn Effect: The opposite of the halo effect-one negative trait unduly influences the overall evaluation of the candidate[6][7].
+- Gender Bias: Making assumptions or decisions based on a candidate’s gender, often to the disadvantage of women or non-binary individuals[3][7].
+- Racial or Ethnic Bias: Discriminating against candidates based on race or ethnicity, either consciously or unconsciously[3][7][9].
+- Age Bias: Favoring or disfavoring candidates based on their age, regardless of actual ability or experience[3][6].
+- Name Bias: Making judgments about a candidate based solely on their name, which can signal ethnicity or background[7].
+- Anchoring Bias: Relying too heavily on the first piece of information received (such as a referral or first impression) and failing to adjust when new evidence arises[5].
+- Attribution Bias: Attributing a candidate’s successes or failures to personality traits rather than situational factors, often unfairly[5].
+- Illusory Correlation: Believing there is a meaningful relationship between two unrelated factors (e.g., thinking all good employees are “morning people”)[5][8].
+- Contrast Bias: Evaluating candidates relative to each other instead of against the job requirements, which can distort perceptions[7].
+- Conformity Bias: Allowing group opinions or “groupthink” to sway individual assessments of candidates[4][8].
+
+These biases can occur at any stage of the hiring process, from resume screening to interviews and final decision-making. Addressing them is essential for fair, effective, and inclusive hiring practices[6][9][10].
+
+Would you like tips on how to reduce these biases in your hiring process?
+
+Citations:
+[1] https://www.homerun.co/articles/4-types-of-hiring-bias-and-how-to-avoid-them
+[2] https://harver.com/blog/hiring-biases/
+[3] https://vidcruiter.com/video-interviewing/hiring-biases/
+[4] https://www.kbrs.ca/insights/five-unconscious-biases-watch-out-your-hiring-process
+[5] https://www.equalture.com/blog/10-types-of-unconscious-hiring-bias/
+[6] https://www.hrlineup.com/types-of-hiring-biases-how-to-avoid-them/
+[7] https://www.oleeo.com/blog/practical-tips-to-reduce-bias-in-recruitment/
+[8] https://eddy.com/hr-encyclopedia/workplace-bias/
+[9] https://hbr.org/2017/06/7-practical-ways-to-reduce-bias-in-your-hiring-process
+[10] https://www.criteriacorp.com/blog/8-examples-of-unconscious-bias-in-hiring
+
+---
+Answer from Perplexity: pplx.ai/share
