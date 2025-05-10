@@ -1,40 +1,88 @@
-# BiasBuster: HR Interview Simulator
+# 📊 BiasBuster: HR Interview Simulator
 
-![BiasBuster Banner](https://example.com/images/biasbuster-banner.png)
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+![Built With](https://img.shields.io/badge/built_with-React%20%7C%20Express%20%7C%20OpenAI-blue)
+![Status](https://img.shields.io/badge/status-In_Development-yellow)
 
-An interactive educational simulation designed to help HR professionals identify and mitigate unconscious bias in hiring decisions.
+BiasBuster is an interactive, AI-powered educational simulation designed to help HR professionals identify and mitigate unconscious bias in hiring decisions.
+
+---
+
+## 📘 Table of Contents
+- [Project Overview](#-project-overview)
+- [Why Use BiasBuster](#-why-use-biasbuster)
+- [Features](#-features)
+- [Educational Framework](#-educational-framework)
+- [Technology Stack](#-technology-stack)
+- [Installation](#-installation)
+- [API Keys](#-api-keys)
+- [Future Development](#-future-development)
+- [License](#-license)
+- [Contributing](#-contributing)
+- [Contact](#-contact)
+
+---
 
 ## 🌟 Project Overview
 
-The Bias Buster HR Interview Simulator is a gamified learning platform that uses realistic candidate profiles and AI-powered analysis to reveal potential unconscious biases in hiring practices. Through interactive rounds of candidate selection and reflection, users develop awareness of their own decision patterns in a safe, educational environment.
+BiasBuster uses realistic candidate profiles and AI-driven analysis to reveal unconscious biases in hiring. It provides a safe, gamified environment for self-reflection, analytics, and practical learning.
+
+---
+
+## ❓ Why Use BiasBuster?
+
+- ✅ Designed for real-world HR challenges
+- 🧠 Grounded in SHRM's BEAM and other DEI frameworks
+- 🎮 Gamified with candidate selection, reflection, and feedback
+- 📊 Real-time analytics + bias pattern visualizations
+- 🚀 Easy to deploy and customize for org training
+
+---
 
 ## 🚀 Features
 
-### Core Experience
-- **Multi-round Hiring Simulation**: Progress through 5+ rounds of hiring different positions
-- **Diverse Candidate Pool**: Dynamically generated candidates with varying demographics, education, and experience
-- **Reflection System**: Self-report on what factors influenced each hiring decision
-- **Educational Popups**: Learn about specific bias types after each selection
+### 🔹 Core Gameplay
+- **Multi-Round Simulation** – Hire across 5+ rounds
+- **Diverse Candidates** – Dynamic backgrounds and identities
+- **Reflection Prompts** – Real-time introspection after each choice
+- **Educational Popups** – Learn about bias types as you play
 
-### Analytics & Insights
-- **Decision Consistency Heatmap**: Visualize your selection patterns across different factors
-- **Bias Pattern Detection**: AI-powered analysis of potential unconscious biases in selections
-- **What-If Simulator**: Explore how different hiring choices would affect team composition
-- **Team Demographics Dashboard**: Monitor diversity metrics as your virtual team grows
+### 🔹 Analytics
+- **Heatmap Dashboard** – See patterns in your decisions
+- **Bias Detection Engine** – AI-powered feedback on your hiring tendencies
+- **What-If Simulator** – Explore how alternative hires change your team
+- **Diversity Metrics** – Track gender, education, experience, and more
 
-### Educational Tools
-- **Bias Flashcards**: Quick facts and strategies for different types of hiring biases
-- **Research-Based Content**: All educational content based on current HR and DEI research
-- **Personalized Recommendations**: Targeted suggestions based on your specific selection patterns
+### 🔹 Learning Tools
+- **Bias Flashcards** – Micro-learning on hiring psychology
+- **Personalized Tips** – Recommendations based on user patterns
+- **Evidence-Based Content** – Pulled from top HR & DEI research
+
+---
+
+## 🧠 Educational Framework
+
+BiasBuster follows a 7-step learning model:
+
+1. **Exposure** – Realistic hiring scenarios  
+2. **Decision-Making** – Choose based on profiles  
+3. **Self-Reflection** – Identify internal influences  
+4. **Pattern Recognition** – Spot consistency (or bias)  
+5. **Targeted Education** – Learn relevant concepts  
+6. **What-If Exploration** – Change outcomes  
+7. **Strategy Development** – Apply anti-bias tactics
+
+---
 
 ## 💻 Technology Stack
 
-- **Frontend**: React + TypeScript with Shadcn UI components
-- **Backend**: Express.js API server
-- **State Management**: React Context API + TanStack Query
-- **Styling**: Tailwind CSS with custom theming
-- **AI Integration**: OpenAI API for candidate generation and bias analysis
-- **Data Source**: BLS API for realistic employment data
+- **Frontend**: React + TypeScript + TailwindCSS + Shadcn UI  
+- **Backend**: Node.js + Express  
+- **AI**: OpenAI API for bias analysis and candidate dialog  
+- **Data**: U.S. Bureau of Labor Statistics API  
+- **State Management**: Context API + TanStack Query  
+
+---
 
 ## 📋 Installation
 
@@ -42,60 +90,62 @@ The Bias Buster HR Interview Simulator is a gamified learning platform that uses
 # Clone the repository
 git clone https://github.com/YourUsername/biasbuster.git
 
-# Navigate to project directory
+# Navigate to the directory
 cd biasbuster
 
 # Install dependencies
 npm install
 
-# Start the development server
+# Start the dev server
 npm run dev
 ```
 
+---
+
 ## 🔑 API Keys
 
-This project requires two API keys:
-- `OPENAI_API_KEY`: For candidate generation and bias analysis
-- `BLS_API_KEY`: For employment statistics (free from Bureau of Labor Statistics)
+Create a `.env` file in the root directory with:
 
-Create a `.env` file in the root directory with these values:
-```
+```env
 OPENAI_API_KEY=your_openai_key_here
 BLS_API_KEY=your_bls_key_here
 ```
 
-## 🧠 Educational Framework
-
-BiasBuster is built on a comprehensive bias awareness framework:
-
-1. **Exposure**: Encounter realistic scenarios that may trigger bias
-2. **Decision-Making**: Make hiring choices based on candidate information
-3. **Self-Reflection**: Identify what factors influenced each decision
-4. **Pattern Recognition**: Visualize consistent patterns in decision-making
-5. **Targeted Education**: Learn about specific bias types relevant to your patterns
-6. **Alternative Exploration**: Test how different choices affect outcomes
-7. **Strategy Development**: Learn practical techniques to mitigate bias
-
-## 📈 Future Development
-
-- Database persistence for longer-term tracking
-- Multiplayer mode for team training
-- Customizable industry-specific scenarios
-- Integration with real-world ATS (Applicant Tracking Systems)
-- Additional bias types and mitigation strategies
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📞 Contact
-
-Questions or feedback? Reach out to us at contact@biasbusterapp.com.
+You can obtain a free BLS API key from [bls.gov/developers](https://www.bls.gov/developers/) and an OpenAI key from [openai.com](https://openai.com/).
 
 ---
 
-*BiasBuster is an educational tool designed to help individuals recognize and address unconscious bias. It is not intended to replace comprehensive diversity training or professional HR guidance.*
+## 📈 Future Development
+
+- 🗃️ Persistent database support
+- 👥 Multiplayer/team training mode
+- 🧩 Industry-specific job scenarios
+- ⚙️ ATS (applicant tracking) integration
+- 🔍 Additional bias types and remediation strategies
+
+---
+
+## 📄 License
+
+MIT License. See the `LICENSE` file for details.
+
+---
+
+## 🤝 Contributing
+
+We welcome PRs and contributions from the community.
+
+1. Fork the repo  
+2. Create a new branch (`git checkout -b feature-xyz`)  
+3. Commit your changes  
+4. Open a pull request
+
+---
+
+## 📞 Contact
+
+Questions or feedback? Reach us at **contact@biasbusterapp.com**
+
+---
+
+> BiasBuster is a tool for educational use only. It is not a substitute for full DEI training or professional HR/legal consultation.
